@@ -15,7 +15,6 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
  
 # GPGPU-Sim
 export CUDA_INSTALL_PATH=/usr/local/cuda
-alias gpgpu="source ~/Projects/gpgpu-sim_distribution/setup_environment"
 
 # GPGPU-Sim CuDNN
 export CUDNN_PATH=/usr/local/cuda
