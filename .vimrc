@@ -1,4 +1,4 @@
-# TODO: cleanup
+" TODO: cleanup
 :syntax enable
 syntax on
 set number
@@ -22,3 +22,6 @@ set autoindent
 set smartindent
 
 colorscheme delek
+
+" save with sudo using w!!
+cmap w!! w !sudo tee > /dev/null %
