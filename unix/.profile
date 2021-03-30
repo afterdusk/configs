@@ -18,4 +18,3 @@ export CUDA_INSTALL_PATH=/usr/local/cuda
 
 # GPGPU-Sim CuDNN
 export CUDNN_PATH=/usr/local/cuda
-                                 
