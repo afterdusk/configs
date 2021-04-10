@@ -6,8 +6,20 @@
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
+# Golang
+export GOROOT=/usr/local/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+# cs143 cool
+export PATH=/usr/class/cs143/bin:$PATH
+
+# CUDA
+export PATH=/usr/local/cuda/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+
 # GPGPU-Sim
-## aliases are not exported from one instance
-## of bash to a new one started by it
-## See: https://askubuntu.com/questions/272491/why-is-setting-alias-in-profile-not-working
+export CUDA_INSTALL_PATH=/usr/local/cuda
 alias gpgpu="source ~/Projects/gpgpu-sim_distribution/setup_environment"
+
+# GPGPU-Sim CuDNN
+export CUDNN_PATH=/usr/local/cuda
