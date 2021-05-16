@@ -8,6 +8,7 @@ export EDITOR="$VISUAL"
 
 # Golang
 export GOROOT=/usr/local/go
+export GO111MODULE=off
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 # cs143 cool
