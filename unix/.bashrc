@@ -11,6 +11,9 @@ export GOROOT=/usr/local/go
 export GO111MODULE=off
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
+# Erlang
+export PATH=~/.cache/rebar3/bin:$PATH
+
 # cs143 cool
 export PATH=/usr/class/cs143/bin:$PATH
 
