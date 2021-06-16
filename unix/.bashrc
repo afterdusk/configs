@@ -14,6 +14,9 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 # Erlang
 export PATH=~/.cache/rebar3/bin:$PATH
 
+# Yarn binaries
+export PATH=~/.yarn/bin:$PATH
+
 # cs143 cool
 export PATH=/usr/class/cs143/bin:$PATH
 
